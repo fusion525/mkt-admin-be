@@ -1,0 +1,25 @@
+GET http://localhost:8080/api/members
+Accept: application/json
+
+###
+POST http://localhost:8080/api/members
+Content-Type: application/json
+
+{
+  "firstName": "Gipsz",
+  "lastName": "jakab",
+  "email": "jakab.gipsz@citromail.hu",
+  "phoneNumber":"063021",
+  "zip": 1035,
+  "city": "Budapest",
+  "address": "Veder utca",
+  "birthDate": "1995-04-12",
+  "birthplace": "Budapest",
+  "memberState": "STUDENT"
+}
+###
+
+
+
+
+
